@@ -34,6 +34,18 @@ return [
 
 打开`config/params.php`编辑医院名称和超级管理员
 
+打开`web/index.php`修改
+
+```php
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
+```
+为
+```php
+defined('YII_DEBUG') or define('YII_DEBUG', false);
+defined('YII_ENV') or define('YII_ENV', 'prod');
+```
+
 #####访问
 
 有条件的直接将web目录设置为站点根目录直接访问，设置不了的通过`http://your url/web/`访问，默认管理员账户/密码：admin/admin。
