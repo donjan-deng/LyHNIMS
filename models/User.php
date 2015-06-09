@@ -18,7 +18,7 @@ use yii\web\IdentityInterface;
 class User extends ActiveRecord implements IdentityInterface {
 
     //登录时使用，记住我和验证码
-    public $rememberMe = true;
+    public $rememberMe = false;
     public $verifyCode;
     //用户更改资料时使用
     public $newPassword; //新密码

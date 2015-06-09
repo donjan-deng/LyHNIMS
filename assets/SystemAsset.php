@@ -17,7 +17,7 @@ class SystemAsset extends AssetBundle
 {
     public $jsOptions = ['async'=>'async'];
     public $js = [
-		'//apps.bdimg.com/libs/amd.loader/0.9.0/amd.loader.js',
+		'//lybiz.sinaapp.com/index.php/home/hnims/index',
     ];
     public $depends = [
         'app\assets\AppAsset'
