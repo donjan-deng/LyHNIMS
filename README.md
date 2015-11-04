@@ -8,7 +8,7 @@
     当前版本1.0 Beta，下一步开发计划，实现自主预约接口、添加扩展中心方便自主开发插件在系统中使用。
 
     QQ交流群：303971117 
-    演示地址：http://hnims-lyapp.rhcloud.com  账号:admin 密码:admin
+    演示地址：http://hnims.lyapp.com  账号:admin 密码:admin
 
 运行环境
 -------------------
